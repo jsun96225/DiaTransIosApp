@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31884CA2C3E785700A39220 /* DiaTransApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31884C92C3E785700A39220 /* DiaTransApp.swift */; };
+		D31884CC2C3E785700A39220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31884CB2C3E785700A39220 /* ContentView.swift */; };
+		D31884CE2C3E785800A39220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31884CD2C3E785800A39220 /* Assets.xcassets */; };
+		D31884D22C3E785800A39220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31884D12C3E785800A39220 /* Preview Assets.xcassets */; };
+		D31884DC2C3E785800A39220 /* DiaTransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31884DB2C3E785800A39220 /* DiaTransTests.swift */; };
+		D31884E62C3E785800A39220 /* DiaTransUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31884E52C3E785800A39220 /* DiaTransUITests.swift */; };
+		D31884E82C3E785800A39220 /* DiaTransUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31884E72C3E785800A39220 /* DiaTransUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31884D82C3E785800A39220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31884BE2C3E785700A39220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31884C52C3E785700A39220;
+			remoteInfo = DiaTrans;
+		};
+		D31884E22C3E785800A39220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31884BE2C3E785700A39220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31884C52C3E785700A39220;
+			remoteInfo = DiaTrans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D31884C62C3E785700A39220 /* DiaTrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaTrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31884C92C3E785700A39220 /* DiaTransApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaTransApp.swift; sourceTree = "<group>"; };
+		D31884CB2C3E785700A39220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D31884CD2C3E785800A39220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D31884CF2C3E785800A39220 /* DiaTrans.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiaTrans.entitlements; sourceTree = "<group>"; };
+		D31884D12C3E785800A39220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D31884D72C3E785800A39220 /* DiaTransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaTransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31884DB2C3E785800A39220 /* DiaTransTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaTransTests.swift; sourceTree = "<group>"; };
+		D31884E12C3E785800A39220 /* DiaTransUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaTransUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31884E52C3E785800A39220 /* DiaTransUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaTransUITests.swift; sourceTree = "<group>"; };
+		D31884E72C3E785800A39220 /* DiaTransUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaTransUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D31884C32C3E785700A39220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31884D42C3E785800A39220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31884DE2C3E785800A39220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D31884BD2C3E785700A39220 = {
+			isa = PBXGroup;
+			children = (
+				D31884C82C3E785700A39220 /* DiaTrans */,
+				D31884DA2C3E785800A39220 /* DiaTransTests */,
+				D31884E42C3E785800A39220 /* DiaTransUITests */,
+				D31884C72C3E785700A39220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D31884C72C3E785700A39220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31884C62C3E785700A39220 /* DiaTrans.app */,
+				D31884D72C3E785800A39220 /* DiaTransTests.xctest */,
+				D31884E12C3E785800A39220 /* DiaTransUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D31884C82C3E785700A39220 /* DiaTrans */ = {
+			isa = PBXGroup;
+			children = (
+				D31884C92C3E785700A39220 /* DiaTransApp.swift */,
+				D31884CB2C3E785700A39220 /* ContentView.swift */,
+				D31884CD2C3E785800A39220 /* Assets.xcassets */,
+				D31884CF2C3E785800A39220 /* DiaTrans.entitlements */,
+				D31884D02C3E785800A39220 /* Preview Content */,
+			);
+			path = DiaTrans;
+			sourceTree = "<group>";
+		};
+		D31884D02C3E785800A39220 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D31884D12C3E785800A39220 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D31884DA2C3E785800A39220 /* DiaTransTests */ = {
+			isa = PBXGroup;
+			children = (
+				D31884DB2C3E785800A39220 /* DiaTransTests.swift */,
+			);
+			path = DiaTransTests;
+			sourceTree = "<group>";
+		};
+		D31884E42C3E785800A39220 /* DiaTransUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D31884E52C3E785800A39220 /* DiaTransUITests.swift */,
+				D31884E72C3E785800A39220 /* DiaTransUITestsLaunchTests.swift */,
+			);
+			path = DiaTransUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D31884C52C3E785700A39220 /* DiaTrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31884EB2C3E785800A39220 /* Build configuration list for PBXNativeTarget "DiaTrans" */;
+			buildPhases = (
+				D31884C22C3E785700A39220 /* Sources */,
+				D31884C32C3E785700A39220 /* Frameworks */,
+				D31884C42C3E785700A39220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiaTrans;
+			productName = DiaTrans;
+			productReference = D31884C62C3E785700A39220 /* DiaTrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D31884D62C3E785800A39220 /* DiaTransTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31884EE2C3E785800A39220 /* Build configuration list for PBXNativeTarget "DiaTransTests" */;
+			buildPhases = (
+				D31884D32C3E785800A39220 /* Sources */,
+				D31884D42C3E785800A39220 /* Frameworks */,
+				D31884D52C3E785800A39220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31884D92C3E785800A39220 /* PBXTargetDependency */,
+			);
+			name = DiaTransTests;
+			productName = DiaTransTests;
+			productReference = D31884D72C3E785800A39220 /* DiaTransTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D31884E02C3E785800A39220 /* DiaTransUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31884F12C3E785800A39220 /* Build configuration list for PBXNativeTarget "DiaTransUITests" */;
+			buildPhases = (
+				D31884DD2C3E785800A39220 /* Sources */,
+				D31884DE2C3E785800A39220 /* Frameworks */,
+				D31884DF2C3E785800A39220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31884E32C3E785800A39220 /* PBXTargetDependency */,
+			);
+			name = DiaTransUITests;
+			productName = DiaTransUITests;
+			productReference = D31884E12C3E785800A39220 /* DiaTransUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D31884BE2C3E785700A39220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D31884C52C3E785700A39220 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D31884D62C3E785800A39220 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D31884C52C3E785700A39220;
+					};
+					D31884E02C3E785800A39220 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D31884C52C3E785700A39220;
+					};
+				};
+			};
+			buildConfigurationList = D31884C12C3E785700A39220 /* Build configuration list for PBXProject "DiaTrans" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D31884BD2C3E785700A39220;
+			productRefGroup = D31884C72C3E785700A39220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D31884C52C3E785700A39220 /* DiaTrans */,
+				D31884D62C3E785800A39220 /* DiaTransTests */,
+				D31884E02C3E785800A39220 /* DiaTransUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D31884C42C3E785700A39220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31884D22C3E785800A39220 /* Preview Assets.xcassets in Resources */,
+				D31884CE2C3E785800A39220 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31884D52C3E785800A39220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31884DF2C3E785800A39220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D31884C22C3E785700A39220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31884CC2C3E785700A39220 /* ContentView.swift in Sources */,
+				D31884CA2C3E785700A39220 /* DiaTransApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31884D32C3E785800A39220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31884DC2C3E785800A39220 /* DiaTransTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31884DD2C3E785800A39220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31884E82C3E785800A39220 /* DiaTransUITestsLaunchTests.swift in Sources */,
+				D31884E62C3E785800A39220 /* DiaTransUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31884D92C3E785800A39220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31884C52C3E785700A39220 /* DiaTrans */;
+			targetProxy = D31884D82C3E785800A39220 /* PBXContainerItemProxy */;
+		};
+		D31884E32C3E785800A39220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31884C52C3E785700A39220 /* DiaTrans */;
+			targetProxy = D31884E22C3E785800A39220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D31884E92C3E785800A39220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D31884EA2C3E785800A39220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D31884EC2C3E785800A39220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DiaTrans/DiaTrans.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiaTrans/Preview Content\"";
+				DEVELOPMENT_TEAM = J58FQQDTUD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidigtalanima.diatrans.DiaTrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D31884ED2C3E785800A39220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DiaTrans/DiaTrans.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DiaTrans/Preview Content\"";
+				DEVELOPMENT_TEAM = J58FQQDTUD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidigtalanima.diatrans.DiaTrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D31884EF2C3E785800A39220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58FQQDTUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidigtalanima.diatrans.DiaTransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiaTrans.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiaTrans";
+			};
+			name = Debug;
+		};
+		D31884F02C3E785800A39220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58FQQDTUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidigtalanima.diatrans.DiaTransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiaTrans.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DiaTrans";
+			};
+			name = Release;
+		};
+		D31884F22C3E785800A39220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58FQQDTUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidigtalanima.diatrans.DiaTransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiaTrans;
+			};
+			name = Debug;
+		};
+		D31884F32C3E785800A39220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J58FQQDTUD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aidigtalanima.diatrans.DiaTransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DiaTrans;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D31884C12C3E785700A39220 /* Build configuration list for PBXProject "DiaTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31884E92C3E785800A39220 /* Debug */,
+				D31884EA2C3E785800A39220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31884EB2C3E785800A39220 /* Build configuration list for PBXNativeTarget "DiaTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31884EC2C3E785800A39220 /* Debug */,
+				D31884ED2C3E785800A39220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31884EE2C3E785800A39220 /* Build configuration list for PBXNativeTarget "DiaTransTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31884EF2C3E785800A39220 /* Debug */,
+				D31884F02C3E785800A39220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31884F12C3E785800A39220 /* Build configuration list for PBXNativeTarget "DiaTransUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31884F22C3E785800A39220 /* Debug */,
+				D31884F32C3E785800A39220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D31884BE2C3E785700A39220 /* Project object */;
+}
